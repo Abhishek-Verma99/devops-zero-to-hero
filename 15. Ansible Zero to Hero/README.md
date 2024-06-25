@@ -74,9 +74,9 @@ ansible webservers -i /home/ubuntu/inventory -m "shell" -a "touch test"
       state: present
       update_cache: true
   - name: Start nginx
-	service:
-	  name: nginx
-	  state: started
+    service:
+      name: nginx
+      state: started
 ```
 
 ## Ansible Roles
